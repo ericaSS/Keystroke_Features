@@ -107,7 +107,7 @@ class KeystrokeManhattanMethod:
 
 
 # fetch the data from local
-path = "/Users/shuxinzhou/Downloads/DSL-StrongPasswordData.csv"
+path = ".../Downloads/DSL-StrongPasswordData.csv"
 data = pandas.read_csv(path)
 subjects = data["subject"].unique()
 
